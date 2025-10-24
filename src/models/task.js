@@ -14,7 +14,7 @@ const taskSchema = new mongoose.Schema({
         default: false,
     },
 },{
-    timestamp: true,
+    timestamps: true,
 
 })
 
